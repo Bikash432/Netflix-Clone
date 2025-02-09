@@ -1,71 +1,84 @@
-<h1 align="center">MERN Netflix Clone 🎬</h1>
+# Netflix Clone
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+A full-stack Netflix Clone built using the MERN (MongoDB, Express.js, React, Node.js) stack. This project replicates core Netflix features, including user authentication, movie browsing, and streaming functionality.
 
-[Video Tutorial on Youtube](https://youtu.be/0Kzd4k1YuCA)
+## Features
 
-About This Course:
+- **User Authentication:** Sign up, log in, and manage user sessions with JWT authentication.
+- **Movie & Show Browsing:** Fetch and display movies/shows from a database with categories.
+- **Watchlist Feature:** Save favorite movies and shows for later viewing.
+- **Streaming Support:** Play movies and shows using an integrated video player.
+- **Admin Panel:** Manage content, users, and categories.
+- **Responsive UI:** Optimized for mobile and desktop viewing.
 
--   ⚛️ Tech Stack: React.js, Node.js, Express.js, MongoDB, Tailwind
--   🔐 Authentication with JWT
--   📱 Responsive UI
--   🎬 Fetch Movies and Tv Show
--   🔎 Search for Actors and Movies
--   🎥 Watch Trailers
--   🔥 Fetch Search History
--   🐱‍👤 Get Similar Movies/Tv Shows
--   💙 Awesome Landing Page
--   🌐 Deployment
--   🚀 And Many More Cool Features
--   ✅ This is a lot of work. Support my work by subscribing to the [Channel](https://www.youtube.com/@asaprogrammer_)
+## Tech Stack
 
-### Setup .env file
+### Frontend
+- React.js
+- Redux (State Management)
+- Tailwind CSS / Bootstrap (Styling)
 
-```bash
+### Backend
+- Node.js
+- Express.js
+- MongoDB (Mongoose ORM)
+- JWT Authentication
+- Multer (for file uploads)
+
+### Deployment
+- Frontend: Vercel / Netlify
+- Backend: Heroku / Render
+- Database: MongoDB Atlas
+
+## Installation & Setup
+
+### Prerequisites
+Ensure you have the following installed:
+- Node.js
+- MongoDB
+
+### Clone the Repository
+```sh
+ git clone https://github.com/Bikash432/Netflix-Clone.git
+ cd Netflix-Clone
+```
+
+### Backend Setup
+```sh
+ cd server
+ npm install
+ npm start
+```
+
+### Frontend Setup
+```sh
+ cd client
+ npm install
+ npm start
+```
+
+## Environment Variables
+Create a `.env` file in the `server` directory and configure:
+```
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
 PORT=5000
-MONGO_URI=your_mongo_uri
-NODE_ENV=development
-JWT_SECRET=your_jwt_secre
-TMDB_API_KEY=your_tmdb_api_key
 ```
 
-### Run this app locally
+## Usage
+- Run the backend and frontend concurrently.
+- Visit `http://localhost:3000` to explore the app.
+- Sign up or log in to access premium features.
 
-```shell
-npm run build
-```
+## Contributing
+Pull requests are welcome! For significant changes, open an issue first to discuss what you'd like to modify.
 
-### Start the app
+## License
+This project is licensed under the MIT License.
 
-```shell
-npm run start
-```
+## Contact
+For queries, reach out to [Bikash Thapa Magar](mailto:bthapam@siue.edu).
 
-## `Timestamps` for your convenience:
+## Acknowledgments
+Special thanks to the open-source community for providing valuable resources and libraries used in this project.
 
--   00:00:00 - App Showcase
--   00:07:50 - Backend Setup
--   00:23:00 - Database (MongoDB) Setup
--   00:35:54 - Signup Logic in Backend
--   00:54:26 - Generate JWT
--   01:02:40 - Logout Logic in Backend
--   01:04:30 - Login Logic in Backend
--   01:08:30 - A Quick Recap
--   01:11:25 - Fetching Movies From API
--   01:42:00 - Fetchin TV Shows From API
--   01:48:50 - Protecting Routes (Middleware)
--   01:59:15 - Search Routes
--   02:28:52 - Frontend Setup
--   02:41:45 - Signup Page and Login Page UI Design
--   02:55:25 - Auth Screen UI Design
--   03:28:30 - Signup, Login, Logout Functionality
--   04:03:45 - Building the Home Screen
--   05:13:00 - Building the Watch Page
--   05:49:50 - Building the Search Page
--   06:05:20 - Building the Search History Page
--   06:14:55 - Building a Custom 404 Page
--   06:18:55 - Testing Our App and Small Fixes
--   06:24:40 - Detailed Deployment Guide
--   06:48:53 - Oops! I almost forgot this... bye
-
-### I'll see you in the next one! 🚀
