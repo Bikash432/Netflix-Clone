@@ -65,19 +65,41 @@ JWT_SECRET=your_jwt_secret
 PORT=5000
 ```
 
-## Usage
-- Run the backend and frontend concurrently.
-- Visit `http://localhost:3000` to explore the app.
-- Sign up or log in to access premium features.
 
-## Contributing
-Pull requests are welcome! For significant changes, open an issue first to discuss what you'd like to modify.
+-   ⚛️ Tech Stack: React.js, Node.js, Express.js, MongoDB, Tailwind
+-   🔐 Authentication with JWT
+-   📱 Responsive UI
+-   🎬 Fetch Movies and Tv Show
+-   🔎 Search for Actors and Movies
+-   🎥 Watch Trailers
+-   🔥 Fetch Search History
+-   🐱‍👤 Get Similar Movies/Tv Shows
+-   💙 Awesome Landing Page
+-   🌐 Deployment
+-   🚀 And Many More Cool Features
+-   ✅ This is a lot of work. Support my work by subscribing to the [Channel](https://www.youtube.com/@asaprogrammer_)
 
-## License
-This project is licensed under the MIT License.
+### Setup .env file
 
-## Contact
-For queries, reach out to [Bikash Thapa Magar](mailto:bthapam@siue.edu).
+```bash
+PORT=5000
+MONGO_URI=your_mongo_uri
+NODE_ENV=development
+JWT_SECRET=your_jwt_secre
+TMDB_API_KEY=your_tmdb_api_key
+```
+
+### Run this app locally
+
+```shell
+npm run build
+```
+
+### Start the app
+
+```shell
+npm run start
+```queries, reach out to [Bikash Thapa Magar](mailto:bthapam@siue.edu).
 
 ## Acknowledgments
 Special thanks to the open-source community for providing valuable resources and libraries used in this project.
